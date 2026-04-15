@@ -1,4 +1,11 @@
 package Atividade_15_ClasseAbstrata;
 
-public class Pagamento {
+public abstract class Pagamento {
+    protected double valor;
+
+    public Pagamento(double valor){
+        this.valor = valor;
+    }
+
+    public abstract void processarPagamento();
 }
