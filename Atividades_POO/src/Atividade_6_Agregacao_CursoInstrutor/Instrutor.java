@@ -6,13 +6,6 @@ public class Instrutor {
     private String email;
     private int experienciaAnos;
 
-    public Instrutor(String nome, String formacao, String email, int experienciaAnos){
-        this.nome = nome;
-        this.formacao = formacao;
-        this.email = email;
-        this.experienciaAnos = experienciaAnos;
-    }
-
     public void setNome(String nome){
         this.nome = nome;
     }
@@ -46,15 +39,16 @@ public class Instrutor {
 
     }
     public void aplicarAvaliacao(String cursoNome){
-
+        System.out.println("Prof. " + getNome() + " vai aplicar uma avaliação referenta à disciplina de " + cursoNome);
     }
     public void responderDuvidas(String duvida){
-
+        System.out.println("Prof. " + getNome() + "vai responder a seguinte dúvida de um aluno:");
+        System.out.println(duvida);
     }
-    public void criarMaterialDeApoio(String Titulo){
-
+    public void criarMaterialDeApoio(String titulo){
+        System.out.println("Prof. " + getNome() + " criou o seguinte material de apoio: " + titulo);
     }
     public void agendarLive(String dataHora){
-
+        System.out.println("Prof. " + getNome() + " agendou uma live para a seguinte data: " + dataHora);
     }
 }
