@@ -1,4 +1,4 @@
-package Atividade_30_Interface;
+package Atividade_30_Tratamento_de_Excecoes;
 
 public class Conta {
     public double saldo;

@@ -1,0 +1,4 @@
+package Atividade_34_InterfaceGrafica;
+
+public class ExemploBorderLayout {
+}
